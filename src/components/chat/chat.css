@@ -148,6 +148,10 @@
         outline: none;
         resize: none;
         color: white;
+
+        &:disabled {
+            cursor: not-allowed;
+        }
     }
 
     .emoji {
@@ -171,6 +175,11 @@
         padding: 10px 20px;
         border: none;
         cursor: pointer;
+
+        &:disabled {
+            cursor: not-allowed;
+            background-color: rgba(31, 142, 241, 0.56);
+        }
     }
 }
 
